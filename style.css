@@ -1,27 +1,33 @@
-
+* {
+    padding:0;
+    margin: 0;
+}
 li {
-  list-style: none;
-  text-align: center;
+    display: block;
+    width: 300px;
+    font-size:16px;
+    margin: auto;
+    padding: 5px 0;
+    list-style: none;
+    text-align: center;
+    
 }
 
 
 button {
-  margin: 20px;
   width: auto;
+  font-size: 16px;    
   padding: 5px 15px;
   display: block;
-  margin: auto;
+  margin: 20px auto;
 }
 
-ul {
-  padding: 0;
-  text-align: center;
+span {
+    color: firebrick;
+    font-weight: 700;
+    padding-right: 5px;
 }
 
-.ul1 li {
-  display: none;
-}
-
-.ul2 li {
-  display: none;
+li {
+    color: gray;
 }
