@@ -1,0 +1,27 @@
+
+li {
+  list-style: none;
+  text-align: center;
+}
+
+
+button {
+  margin: 20px;
+  width: auto;
+  padding: 5px 15px;
+  display: block;
+  margin: auto;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+.ul1 li {
+  display: none;
+}
+
+.ul2 li {
+  display: none;
+}
