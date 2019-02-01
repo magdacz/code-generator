@@ -4,7 +4,7 @@ const ul = document.querySelector('ul');
 
 const characters = 'ABCDEFGHIJKLMNOPRSTUWYZ0123456789';
 
-const number = 100;
+const number = 10;
 const charactersNumber = 10;
 let counter = "";
 
@@ -19,11 +19,8 @@ const codeGenerator = () => {
         }
         
         const li = document.createElement('li');
-        li.textContent = code
-        ul.appendChild(li)
-        const span = document.createElement('span');
-        span.textContent = counter;
-        li.prepend(span)
+        li.innerHTML = `<span>${counter}</span> ${code}`
+        ul.appendChild(li);
     }
 }
 

@@ -23,11 +23,8 @@ button {
 }
 
 span {
-    color: firebrick;
+    color: blue;
     font-weight: 700;
     padding-right: 5px;
 }
 
-li {
-    color: gray;
-}
